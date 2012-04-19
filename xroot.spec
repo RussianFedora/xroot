@@ -5,7 +5,7 @@ Summary:        Tool for quick and easy elevate privileges to root
 
 License:        GPLv2
 URL:            http://code.google.com/p/xroot/
-Source0:        http://xroot.googlecode.com/files/xroot-src-0.0.3.tar.gz
+Source0:        http://xroot.googlecode.com/files/%{name}-src-%{version}.tar.gz
 
 BuildRequires:  libX11-devel
 BuildRequires:  gcc
@@ -51,3 +51,5 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Apr 19 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 0.0.3-1.R
+- initial build
