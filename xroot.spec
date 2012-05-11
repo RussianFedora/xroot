@@ -1,6 +1,6 @@
 Name:           xroot
 Version:        0.0.3
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Tool for quick and easy elevate privileges to root
 
 License:        GPLv2
@@ -51,5 +51,8 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri May 11 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 0.0.3-2.R
+- bump Release for put in repos
+
 * Tue Apr 19 2012 Vasiliy N. Glazov <vascom2@gmail.com> - 0.0.3-1.R
 - initial build
